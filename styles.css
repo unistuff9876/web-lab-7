@@ -1,0 +1,36 @@
+body {
+	margin: 0;
+}
+
+.form {
+    display: table;
+    width: auto;
+    height: 30px;
+    margin: 10px;
+}
+
+.draw-field {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+input {
+    width: 15em;
+    display: grid;
+    margin-bottom: 0;
+}
+
+.spawn-button {
+	width: max-content;
+    display: -ms-grid;
+    font-size: 1.2em;
+    margin-right: 5px;
+}
+
+.square, .triangle, .circle {
+    width: max-content;
+    display: -ms-grid;
+    font-size: 1.2em;
+    margin-right: 5px;
+}
